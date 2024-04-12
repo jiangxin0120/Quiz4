@@ -7,8 +7,8 @@ trigger:
 - main
 
 pool:
-  vmImage: Agent
-
+  vmImage: Default
+    - agent.name -equals Agent
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
