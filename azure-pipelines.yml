@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: Agent
+  vmImage: vstsagent.xjiang38.Default.Agent
 
 steps:
 - script: echo Hello, world!
